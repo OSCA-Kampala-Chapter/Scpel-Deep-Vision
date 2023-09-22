@@ -1,0 +1,24 @@
+/* This file belongs to the Open Source Community Africa, permissions are
+ * hereby granted to distribute, modify or even commercialized so long as 
+ * this ownership notice is kept and the commercialized version retains an
+ * explicit license from OSCA. And therefore abiding all Community Licence
+ *
+ * NOTE: We therefore own it that we are the makers and architects of the
+ * Opensource Community Licence (OCL). visit http://oscakampala.org/licence
+ * for more and https://oscakampala.org/contribution for the ever best 
+ * contribution practices.
+ *
+ * The future is Open!
+ */
+ 
+/* Author: Phrunsys Emmason
+ * Email: phrunsys@scpel.org
+ * Bug reports: https://bugmania.oscakampala.org/
+ */
+
+#include "../inc/sdv.hsp"
+
+template<typename T>
+auto init(T type) -> T {
+	sdv::foo<type>(!type); // Nothing expected here, just hooks
+}
